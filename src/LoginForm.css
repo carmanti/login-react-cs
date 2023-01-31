@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.container_button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.ingresar {
+  background-color: #0ac510;
+}
+.ingresar:hover {
+  background-color: white;
+}
+
+.primary-btn {
+  background-color: rgb(77, 77, 255);
+  color: white;
+}
+
+.secondary-btn {
+  background-color: lightgray;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 2px solid #555;
+}
+
+li {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgb(224, 222, 222);
+  display: inline-block;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
